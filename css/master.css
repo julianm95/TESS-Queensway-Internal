@@ -18,7 +18,8 @@ body{
   position: fixed;
   top: 22px;
   left: 17rem;
-  min-height: 100vh;
+  min-height: 97vh;
+  max-height: 97vh;
   width: 100%;
   max-width: 78%;
   border-left: .5px solid lightgray;
@@ -42,12 +43,21 @@ body{
   font-size: 25px;
   background-color: lightblue;
   border-bottom: .25px solid lightgray;
+}.innernav-blank{
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 29px;
+  font-size: 25px;
+  background-color: lightblue;
+  border-bottom: .25px solid lightgray;
 }.innerbody{
+  overflow: auto !important;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 3px;
   padding-bottom: 3px;
-  height: 100vh;
+  height: 82vh;
   background-color: white;
 }.sidebar{
   top: 20px;
@@ -61,7 +71,7 @@ body{
   -ms-flex-direction: column;
   flex-direction: column;
   width: 16rem;
-  height: 100vh;
+  height: 95%;
 }.recent{
   padding-left: ;
   padding-right: ;
@@ -78,7 +88,36 @@ body{
   padding-top: ;
   padding-bottom: 1px;
 }.inventory-table{
+  padding-top: 25px;
   position: absolute;
-  top: ;
-  right: 0px;
+  left: : 0px;
+  max-width: 100%;
+  width: 97%;
+  height: 79vh;
+  overflow: auto;
+}table{
+  width: 100%;
+}th{
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  border-top: 1px solid lightgray;
+}td{
+  text-align: left;
+  font-size: 15px;
+  padding-top: 5px;
+}#submitbutton{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}.reporttab{
+  background-color: yellow;
+  height: 75vh;
+  display: flex;
+}.rep{
+  display: flex;
+  position: fixed;
+  left: 20rem;
+  top: 8rem;
 }
